@@ -1,0 +1,9 @@
+body{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+table, th, td	{ border:3px solid #001463;} 
+table	{ width:43.75em;}	
+ul	{ font-size:large;}
+th{ background-color:#dedede;}
+.schrift	{ font-size:16px; }
+/*h1, h3 { font-variant:small-caps;}*/
+td		{ background-color:rgba(251,249,1,0.25);}
+.test01	{ font-family:"Spagetti";} 

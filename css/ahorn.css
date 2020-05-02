@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document für Abschlussprojekt Ahornsirup*/
+
+section a{color: white;
+font-weight: bold;
+background-color: rgba(102,34,0,1.00);
+margin: 15px;}
+
+section a:hover{background-color: rgba(205,70,3,1.00);}
+
+.geschichte_text p, .herstellung_text p, .grade_text p{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(53,17,0,1.00);
+	word-spacing: 2px;
+	letter-spacing: 0.5px;
+	margin: 15px;}
+
+.geschichte_text{text-align: justify;}
+
+#geschichte img{width: 40%;
+	height: auto;
+	float: right;
+	padding: 15px;}
+
+.herstellung_text{text-align: justify;}
+
+iframe{float:left;			
+	margin: 0 1rem;}
+
+#grade {overflow: auto;}
+
+.grade_text {
+	margin: 1rem 0;
+	padding: 15px;
+	background-color: rgba(205,70,3,0.50);
+	text-align: justify;}
+
+.grade_text span{font-weight: bold;
+text-transform: uppercase;
+border-bottom: 2px dashed rgba(255,215,0,1.00);}
+
+#grade img{width: 50%;
+height: auto;
+float: right;
+padding: 15px;}
+
+#rezepte{clear: both;}
+
+#rezepte h3{color:rgba(255,215,0,1.00);
+text-align: center;}
+
+form{margin: 15px;}
+
+/*ahorn_rezepte.html*/
+.rezept_unterseite img{width: 100%;
+height: auto;}
+
+
+.rezept_unterseite{padding-top: 6.25rem;
+}
+
+/*#no_scroll{
+overflow: hidden;}   Rezept-Unterseite scrollen ausschalten wegen Abstand von sticky-top*/

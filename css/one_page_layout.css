@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document für das Beispiel One Page Layout Portfolio */
+
+*{box-sizing: border-box;}
+
+body{font-family: "Trebuchet MS", Verdana, sans-serif;
+font-size: 100%;
+margin: 0;}
+
+#wrapper{/*background-color: rgba(0,0,0,0.25);*/
+max-width: 62.5rem ;   /*1000px / 16 = 62.5      */
+padding: 0.625rem;
+margin: auto;}
+
+#top_navigation{background-color: rgba(84,181,6,0.0);}
+
+#top_navigation ul{margin-top: 0;}
+
+.navi_zentriert{/*background-color: rgba(205,217,5,1.00);*/
+max-width: 62.5rem ;   /*1000px / 16 = 62.5      */
+padding: 0.625rem;
+margin: auto;
+overflow: auto;}
+
+#transparenz{background-color: rgba(255,255,255,0.60);}
+
+section{margin-bottom: 0.625rem;}
+
+section h2{background-color: rgba(191,61,0,0.90);
+color:rgba(255,215,0,1.00);
+font-family: 'Lato', sans-serif;
+margin: 0;}
+
+section h3{/*background-color: rgba(191,61,0,0.90);*/
+display: inline-block;
+width: auto;
+color:rgba(191,61,0,0.90); /*rgba(255,215,0,1.00);*/
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+margin: 15px;}
+
+
+/*Up-Button auf der Startseite*/
+#up{position: fixed;
+bottom: 0.625rem;
+right: 0.625rem;
+padding: 1em;
+border: rgba(255,215,0,1.00) 2px solid;
+background-color: rgba(191,61,0,0.90);
+box-shadow: 2px 2px 1px 1px gray;
+text-decoration: none;
+color: rgba(191,61,0,0.90);
+text-align: center;}
+
+#up:hover, #up:focus{bottom: 0.9375rem;
+	background-color: #FFD700;
+	transition: all 0.2s ease-out;}
+
+
+
+/*Navigation: Unterseite Rezepte*/
+#top_rezepte{
+position: -webkit-sticky;
+position: sticky;
+top:0;
+left:0;	
+background-color: rgba(191,61,0,0.90);
+width: 100%;
+padding: 0.625rem;}
+
+#top_rezepte section{padding-top: 100px;}
+
+#top_rezepte a{
+float: left;
+width:20%;
+padding: 0.625rem 0;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+white-space: nowrap;
+color:rgba(255,215,0,1.00);
+text-decoration: none;}
+
+#top_rezepte a:hover{background-color: #662200;
+color:#fff;}
+
+#top_rezepte h1{color:rgba(255,215,0,1.00);
+text-align: auto;
+display: inline-block;}
+
+
+
+

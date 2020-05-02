@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document für One Page Layout Navi sticky top hero header*/
+
+
+#wrapper{padding-top: 0;}
+
+#top_navigation{
+position: -webkit-sticky;
+position: sticky;
+top:0;
+left:0;	
+background-color: rgba(191,61,0,0.90);
+width: 100%;
+padding: 0.625rem;}
+
+.navi_zentriert{/*background-color: rgba(205,217,5,1.00);*/
+max-width: 62.5rem ;   /*1000px / 16 = 62.5      */
+padding: 0.625rem;
+margin: auto;
+overflow: auto;}
+
+#top_navigation a{/*background-color: rgba(38,176,11,0.44);*/
+float: left;
+width: 20%;
+padding: 0.625rem 0;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+white-space: nowrap;
+color:rgba(255,215,0,1.00);
+text-decoration: none;
+text-align: center;
+}
+
+#top_navigation a:hover{/*background-color: #662200;*/
+color:#fff;
+border-bottom: #fff 2px dotted;}
+
+#top_navigation img{
+	margin-right: 3px;}/**/
+
+#navi_kurs{list-style-type: none;
+padding-left: 0;}
+
+.current{font-weight: bold;}
+
+#startseite{/*background-color: rgba(239,237,27,1.00);*/
+text-align: center;
+padding-top: 0.625rem;}
+
+#startseite h1{color:rgba(255,215,0,1.00);
+text-shadow: 2px 2px 2px #000;
+margin: 0 0 5px 0;
+}
+
+#startseite h2{color:rgba(255,215,0,1.00);
+text-shadow: 2px 2px 2px #000;}
+
+#startseite img{text-align: center;}
+
+section{padding-top: 5.5625rem;}
+
+@media (max-width:31.25rem){
+	
+	section{padding-top: 15.3125rem;}	
+	
+	#top_navigation a{float: none;
+	display:block;
+		width: auto;
+	}	
+	
+}
